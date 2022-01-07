@@ -1,0 +1,19 @@
+.container {
+  background-color: white;
+  width: 200px;
+  height: 250px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
+  color: black;
+}
+
+.container .product_card {
+  text-align: center;
+}
+
+.container .product_card img {
+  width: 100px;
+  height: 80px;
+}
+/*# sourceMappingURL=styles.module.css.map */

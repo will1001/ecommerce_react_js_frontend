@@ -1,0 +1,39 @@
+.body table {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.body td, .body th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+.body tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.body .addbutton {
+  margin: 10px;
+}
+
+.body .actionButton {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.body .actionButton :hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.body .actionButton img {
+  height: 20px;
+  width: 20px;
+  cursor: pointer;
+}
+/*# sourceMappingURL=styles.module.css.map */

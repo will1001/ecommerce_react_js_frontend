@@ -1,0 +1,86 @@
+.container {
+  background-color: aqua;
+  width: 100%;
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .logo {
+  margin: 10px;
+  background-color: beige;
+}
+
+.container .logo img {
+  height: 70px;
+  width: 100px;
+}
+
+.container .search {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container .search img {
+  cursor: pointer;
+  margin-left: 10px;
+  height: 20px;
+  width: 20px;
+}
+
+.container .cart_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container .cart_container .login_signup {
+  margin-right: 10px;
+}
+
+.container .cart_container img {
+  height: 30px;
+  width: 30px;
+}
+
+.container .cart_container .cart {
+  z-index: 1;
+  margin-right: 10px;
+}
+
+.container .cart_container .cart .buble {
+  height: 20px;
+  width: 20px;
+  background-color: #ec1f1f;
+  border-radius: 50%;
+  position: absolute;
+  right: 10px;
+  z-index: 2;
+  display: inline-block;
+  top: 30px;
+  text-align: center;
+  color: white;
+  font-weight: 600;
+  font-size: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/*# sourceMappingURL=styles.module.css.map */

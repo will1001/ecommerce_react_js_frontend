@@ -1,0 +1,18 @@
+.container {
+  width: 200px;
+  padding: 20px;
+}
+
+.container div {
+  cursor: pointer;
+}
+
+.container .ratingStar {
+  font-weight: 400;
+}
+
+.container .ratingStarSelected {
+  border: 1px solid black;
+  font-weight: bold;
+}
+/*# sourceMappingURL=styles.module.css.map */

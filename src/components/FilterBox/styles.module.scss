@@ -1,0 +1,16 @@
+.container{
+   width: 200px;
+   padding: 20px;
+   div{
+       cursor: pointer;
+   }
+
+   .ratingStar{
+       font-weight: 400;
+   }
+
+   .ratingStarSelected{
+       border: 1px solid black;
+       font-weight: bold;
+   }
+}

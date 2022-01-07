@@ -1,0 +1,16 @@
+.container{
+ background-color: white;
+ width: 200px;
+ height: 250px;
+ margin-right: 20px;
+ margin-bottom: 20px;
+ padding: 10px;
+ color: black;
+ .product_card{
+     text-align: center;
+     img{
+         width: 100px;
+         height: 80px;
+     }
+ }
+}

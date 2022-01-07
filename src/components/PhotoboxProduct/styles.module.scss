@@ -1,0 +1,23 @@
+.container{
+    width: 40%;
+    height: 100vh;
+    display: flex;
+    .smallImg{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 10px;
+        img{
+            height: 80px;
+            width: 100px;
+            margin: 8px;
+        }
+    }
+    .bigImg{
+        padding: 10px;
+        img{
+            height: 100%;
+            width: 400px;
+        }
+    }
+}
